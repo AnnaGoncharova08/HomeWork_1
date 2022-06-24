@@ -8,9 +8,9 @@ Console.WriteLine("Введите второе число");
 int numberB = Convert.ToInt32(Console.ReadLine());
 if (numberA > numberB)
 {
-    Console.WriteLine($"Максимальное число равно {numberA}, миниальное число равно {numberB}");
+    Console.WriteLine($"Максимальное число равно {numberA}, минимальное число равно {numberB}");
 }
 else
 {
-    Console.WriteLine($"Максимальное число равно {numberB}, миниальное число равно {numberA}");
+    Console.WriteLine($"Максимальное число равно {numberB}, минимальное число равно {numberA}");
 }
